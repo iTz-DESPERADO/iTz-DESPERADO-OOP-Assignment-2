@@ -1,11 +1,7 @@
 # OOP Assignment 2
 
-- Name: gamal khaled mohamed
-- Academy ID:
-- GitHub: [iTz-DESPERADO](https://github.com/iTz-DESPERADO)
-- Assignment branch: `assignment/1-6`
-- Required pull request title: `[S1-A6] OOP Assignment 2`
-- Pull request target: `main`
+- Name: Gamal Khaled Mohamed
+- ID:
 
 ## Submission layout
 
@@ -68,19 +64,3 @@ dotnet run --project submission/assignment/Inheritance/src/LibrarySystem.csproj
   and a console demonstration of valid actions, rejected actions, and commented
   examples that must not compile.
 - **LeetCode:** [solution and acceptance evidence](submission/leetcode/README.md).
-
-## Notes and assumptions
-
-- SRP preserves the source lab's business behavior, including invoice numbering
-  side effects and the first-request rule for repeated warehouse SKUs. Formatting
-  classes receive calculated invoice values, a dunning level, or detected shortages.
-- Inheritance uses protected parent constructors and values passed through
-  `base(...)`; it does not use abstract members, virtual dispatch, LINQ, lambdas,
-  or custom interfaces.
-- Library dates are calendar dates. Lost loans stay in history, do not count
-  toward the active-loan limit, and keep the lost item unavailable for borrowing.
-- Late fees are computed from the return date, the item's current daily fee,
-  and the member's fixed discount. Reading points are computed from returned loans.
-- Build output and local IDE state are excluded by `.gitignore`.
-- The assignment's diagram-before-code history requirement is separate from the
-  working files: a diagram image alone does not prove the required commit order.
