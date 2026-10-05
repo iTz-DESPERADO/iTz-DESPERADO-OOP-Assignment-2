@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/SrpLab.Runner/SrpLab.Runner.csproj" Id="90a03693-c7e8-4ca8-8645-6376291e4d8b" />
+  <Project Path="src/SrpLab/SrpLab.csproj" />
+</Solution>
